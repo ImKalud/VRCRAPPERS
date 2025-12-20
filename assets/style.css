@@ -1,0 +1,88 @@
+:root {
+  --bg: #0f1113;
+  --text: #e8eef6;
+  --card: #1c1c1c;
+  --muted: #9aa6b2;
+  --accent: #6cf;
+  --radius: 10px;
+  --gap: 16px;
+}
+
+/* Page base */
+html,body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  padding: 20px;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--accent); text-decoration: none; }
+
+/* Nav/back link */
+nav a.back {
+  display: inline-block;
+  margin-bottom: 8px;
+  padding: 6px 8px;
+  border-radius: 6px;
+}
+
+/* Search */
+input {
+  padding: 8px 10px;
+  width: 100%;
+  margin: 8px 0 18px 0;
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.03);
+  color: var(--text);
+  border-radius: 6px;
+}
+
+/* Grid of cards */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: var(--gap);
+}
+
+.card {
+  background: var(--card);
+  padding: 10px;
+  border-radius: var(--radius);
+  text-align: center;
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+.card h2 { margin: 10px 0 4px 0; font-size: 1rem; }
+.card p { margin: 0; color: var(--muted); font-size: 0.9rem; }
+
+/* Profile page */
+#profile { margin-top: 32px; max-width: 900px; }
+.profile-inner { display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap; }
+.avatar { width: 200px; max-width: 100%; height: auto; border-radius: 12px; display: block; }
+
+.profile-info { flex: 1 1 300px; }
+.profile-info h1 { margin: 0 0 8px 0; }
+.profile-info p { margin: 6px 0; color: var(--muted); }
+
+/* Small screens adjustments */
+@media (max-width: 480px) {
+  .card img { height: 120px; }
+  .avatar { width: 140px; }
+  .profile-inner { gap: 12px; }
+}
+

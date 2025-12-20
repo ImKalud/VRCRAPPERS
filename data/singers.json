@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "name": "Remilia Bandxz",
+    "photo": "assets/images/1.png",
+    "company": "9ensokyo",
+    "social": {
+      "instagram": "https://www.instagram.com/remiliajuggzz",
+      "soundcloud": "https://soundcloud.com/skarletbandxz"
+    }
+  },
+  {
+    "id": "2",
+    "name": "Chinawokk",
+    "photo": "assets/images/2.jpg",
+    "company": "9ensokyo",
+    "social": {
+      "instagram": "https://www.instagram.com/chinawokk",
+      "soundcloud": "https://soundcloud.com/chinawokk"
+    }
+  }
+]
