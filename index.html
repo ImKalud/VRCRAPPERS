@@ -16,27 +16,51 @@
 <main>
   <div id="list" class="grid" role="list"></div>
 
-  <div class="counter">
-  本页面访问次数：<span id="count">加载中...</span>
-</div>
+
 </main>
 
+<footer>
+
+<div>
+  访问次数：<span id="count">加载中...</span>
+</div>
+
+
+</footer>
 
 
 <script>
-  const pageKey = location.pathname;
+  const page = location.pathname;
 
-  fetch("https://vrcrappers.workers.dev/api/visit?page=" + encodeURIComponent(pageKey))
-    .then(res => res.json())
-    .then(data => {
-      document.getElementById("count").innerText = data.count;
-    })
-    .catch(() => {
-      document.getElementById("count").innerText = "统计失败";
-    });
+  // session key（防刷关键）
+  const sessionKey = "visited_" + page;
+
+  // 如果本 session 已统计过
+  if (sessionStorage.getItem(sessionKey)) {
+    // 只读取当前计数（不 +1）
+    fetch("/api/visit?page=" + encodeURIComponent(page) + "&read=1")
+      .then(r => r.json())
+      .then(d => {
+        document.getElementById("count").innerText = d.count;
+      })
+      .catch(() => {
+        document.getElementById("count").innerText = "-";
+      });
+  } else {
+    // 第一次访问：+1
+    sessionStorage.setItem(sessionKey, "1");
+
+    fetch("/api/visit?page=" + encodeURIComponent(page))
+      .then(r => r.json())
+      .then(d => {
+        document.getElementById("count").innerText = d.count;
+      })
+      .catch(() => {
+        document.getElementById("count").innerText = "-";
+      });
+  }
 </script>
 
-<script src="js/main.js"></script>
 
 </body>
 </html>
