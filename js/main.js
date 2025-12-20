@@ -46,7 +46,7 @@ async function loadList() {
   } catch (err) {
     console.error('Failed to load singers', err);
     const list = document.getElementById('list');
-    if (list) list.textContent = '无法加载列表。';
+    if (list) list.textContent = 'Failed to load singers.';
   }
 }
 

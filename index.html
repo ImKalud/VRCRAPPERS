@@ -15,14 +15,12 @@
 
 <main>
   <div id="list" class="grid" role="list"></div>
-
-
 </main>
 
 <footer>
 
 <div>
-  访问次数：<span id="count">加载中...</span>
+  Visited Times:<span id="count">Loading...</span> & <a href="https://imkalud.pages.dev/">More About Author</a>
 </div>
 
 
@@ -31,13 +29,8 @@
 
 <script>
   const page = location.pathname;
-
-  // session key（防刷关键）
   const sessionKey = "visited_" + page;
-
-  // 如果本 session 已统计过
   if (sessionStorage.getItem(sessionKey)) {
-    // 只读取当前计数（不 +1）
     fetch("/api/visit?page=" + encodeURIComponent(page) + "&read=1")
       .then(r => r.json())
       .then(d => {
@@ -47,7 +40,6 @@
         document.getElementById("count").innerText = "-";
       });
   } else {
-    // 第一次访问：+1
     sessionStorage.setItem(sessionKey, "1");
 
     fetch("/api/visit?page=" + encodeURIComponent(page))

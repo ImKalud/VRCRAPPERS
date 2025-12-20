@@ -57,7 +57,7 @@ async function loadSinger() {
     profile.appendChild(container);
   } catch (err) {
     console.error(err);
-    document.getElementById('profile').textContent = '加载数据出错。';
+    document.getElementById('profile').textContent = 'Loading singer failed.';
   }
 }
 
