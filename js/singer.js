@@ -19,7 +19,7 @@ async function loadSinger() {
 
     const img = document.createElement('img');
     img.className = 'avatar';
-    img.src = singer.photo || 'assets/images/placeholder.png';
+    img.src = singer.photo || 'assets/images/1.png';
     img.alt = singer.name || 'avatar';
 
     const info = document.createElement('div');

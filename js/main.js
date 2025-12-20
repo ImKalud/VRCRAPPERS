@@ -13,7 +13,7 @@ async function loadList() {
       a.setAttribute('aria-label', s.name || 'singer');
 
       const img = document.createElement('img');
-      img.src = s.photo || 'assets/images/placeholder.png';
+      img.src = s.photo || 'assets/images/1.png';
       img.alt = s.name || '';
 
       const h2 = document.createElement('h2');
