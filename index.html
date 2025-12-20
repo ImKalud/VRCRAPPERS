@@ -15,7 +15,26 @@
 
 <main>
   <div id="list" class="grid" role="list"></div>
+
+  <div class="counter">
+  本页面访问次数：<span id="count">加载中...</span>
+</div>
 </main>
+
+
+
+<script>
+  const pageKey = location.pathname;
+
+  fetch("https://vrcrappers.workers.dev/api/visit?page=" + encodeURIComponent(pageKey))
+    .then(res => res.json())
+    .then(data => {
+      document.getElementById("count").innerText = data.count;
+    })
+    .catch(() => {
+      document.getElementById("count").innerText = "统计失败";
+    });
+</script>
 
 <script src="js/main.js"></script>
 
