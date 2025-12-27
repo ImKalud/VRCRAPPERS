@@ -18,5 +18,88 @@
       "instagram": "https://www.instagram.com/chinawokk",
       "soundcloud": "https://soundcloud.com/chinawokk"
     }
+  },
+  {
+    "id": "3",
+    "name": "Sakuya4D",
+    "photo": "assets/images/3.jpg",
+    "company": "9ensokyo",
+    "social": {
+      "instagram": "https://www.instagram.com/",
+      "soundcloud": "https://soundcloud.com/izayoisakuya"
+    }
+  }
+  ,
+  {
+    "id": "4",
+    "name": "suwakonem",
+    "photo": "assets/images/4.jpg",
+    "company": "9ensokyo",
+    "social": {
+      "instagram": "https://www.instagram.com/",
+      "soundcloud": "https://soundcloud.com/suwakonem"
+    }
+  },
+  {
+    "id": "5",
+    "name": "FlandreXO ",
+    "photo": "assets/images/5.jpg",
+    "company": "9ensokyo",
+    "social": {
+      "instagram": "https://www.instagram.com/",
+      "soundcloud": "https://soundcloud.com/juggtildawn"
+    }
+  },
+  {
+    "id": "6",
+    "name": "aya staxks",
+    "photo": "assets/images/6.jpg",
+    "company": "9ensokyo",
+    "social": {
+      "instagram": "https://www.instagram.com/",
+      "soundcloud": "https://soundcloud.com/ayastaxks"
+    }
+  },
+  {
+    "id": "7",
+    "name": "1kaguya",
+    "photo": "assets/images/7.jpg",
+    "company": "9ensokyo",
+    "social": {
+      "instagram": "https://www.instagram.com/",
+      "soundcloud": "https://soundcloud.com/1kaguya"
+    }
+  }
+  ,
+  {
+    "id": "8",
+    "name": "reimu!",
+    "photo": "assets/images/8.jpg",
+    "company": "9ensokyo",
+    "social": {
+      "instagram": "https://www.instagram.com/",
+      "soundcloud": "https://soundcloud.com/reimushawty"
+    }
+  },
+  {
+    "id": "9",
+    "name": "Marisaguap",
+    "photo": "assets/images/9.jpg",
+    "company": "9ensokyo",
+    "social": {
+      "instagram": "https://www.instagram.com/",
+      "soundcloud": "https://soundcloud.com/marisaguap"
+    }
+  }
+  ,
+  {
+    "id": "10",
+    "name": "frustration",
+    "photo": "assets/images/10.jpg",
+    "company": "9ensokyo",
+    "social": {
+      "instagram": "https://www.instagram.com/",
+      "soundcloud": "https://soundcloud.com/frustrxtion"
+    }
   }
 ]
