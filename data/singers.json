@@ -102,4 +102,103 @@
       "soundcloud": "https://soundcloud.com/frustrxtion"
     }
   }
+  ,
+  {
+    "id": "11",
+    "name": "reisenboutabag",
+    "photo": "assets/images/11.jpg",
+    "company": "9ensokyo",
+    "social": {
+      "instagram": "https://www.instagram.com/",
+      "soundcloud": "https://soundcloud.com/reisenboutabagg"
+    }
+  }
+  ,
+  {
+    "id": "12",
+    "name": "Satori ",
+    "photo": "assets/images/12.jpg",
+    "company": "9ensokyo",
+    "social": {
+      "instagram": "https://www.instagram.com/",
+      "soundcloud": "https://soundcloud.com/satoriservin"
+    }
+  }
+  ,
+  {
+    "id": "13",
+    "name": "tewii",
+    "photo": "assets/images/13.jpg",
+    "company": "9ensokyo",
+    "social": {
+      "instagram": "https://www.instagram.com/",
+      "soundcloud": "https://soundcloud.com/tewii-tewi4tune-9ensokyo"
+    }
+  }
+  ,
+  {
+    "id": "14",
+    "name": "✧patxhouliii✧",
+    "photo": "assets/images/14.jpg",
+    "company": "9ensokyo",
+    "social": {
+      "instagram": "https://www.instagram.com/",
+      "soundcloud": "https://soundcloud.com/p9tchouli"
+    }
+  }
+  ,
+  {
+    "id": "15",
+    "name": "YUNGCIRNOOO ",
+    "photo": "assets/images/15.jpg",
+    "company": "9ensokyo",
+    "social": {
+      "instagram": "https://www.instagram.com/",
+      "soundcloud": "https://soundcloud.com/tomboyishtrenchgawd"
+    }
+  }
+  ,
+  {
+    "id": "16",
+    "name": "sanae kochiya",
+    "photo": "assets/images/16.jpg",
+    "company": "9ensokyo",
+    "social": {
+      "instagram": "https://www.instagram.com/",
+      "soundcloud": "https://soundcloud.com/sanae_kochiya"
+    }
+  }
+  ,
+  {
+    "id": "17",
+    "name": "ALICE19XX ",
+    "photo": "assets/images/17.jpg",
+    "company": "9ensokyo",
+    "social": {
+      "instagram": "https://www.instagram.com/",
+      "soundcloud": "https://soundcloud.com/malice19x"
+    }
+  }
+  ,
+  {
+    "id": "18",
+    "name": "keys , koishi",
+    "photo": "assets/images/18.jpg",
+    "company": "9ensokyo",
+    "social": {
+      "instagram": "https://www.instagram.com/",
+      "soundcloud": "https://soundcloud.com/keyskoishi"
+    }
+  }
+  ,
+  {
+    "id": "19",
+    "name": "Soulyoumu ",
+    "photo": "assets/images/19.jpg",
+    "company": "9ensokyo",
+    "social": {
+      "instagram": "https://www.instagram.com/",
+      "soundcloud": "https://soundcloud.com/soulyoumu"
+    }
+  }
 ]
