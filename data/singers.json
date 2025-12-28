@@ -193,12 +193,45 @@
   ,
   {
     "id": "19",
-    "name": "Soulyoumu ",
+    "name": "Soulyoumu",
     "photo": "assets/images/19.jpg",
     "company": "9ensokyo",
     "social": {
       "instagram": "https://www.instagram.com/",
       "soundcloud": "https://soundcloud.com/soulyoumu"
+    }
+  }
+  ,
+  {
+    "id": "20",
+    "name": "komachi thugn",
+    "photo": "assets/images/20.jpg",
+    "company": "9ensokyo",
+    "social": {
+      "instagram": "https://www.instagram.com/",
+      "soundcloud": "https://soundcloud.com/komachithugn"
+    }
+  }
+  ,
+  {
+    "id": "21",
+    "name": "momijiklutchin",
+    "photo": "assets/images/21.jpg",
+    "company": "9ensokyo",
+    "social": {
+      "instagram": "https://www.instagram.com/",
+      "soundcloud": "https://soundcloud.com/momijiklutchin"
+    }
+  }
+  ,
+  {
+    "id": "22",
+    "name": "yukari  ",
+    "photo": "assets/images/22.jpg",
+    "company": "9ensokyo",
+    "social": {
+      "instagram": "https://www.instagram.com/",
+      "soundcloud": "https://soundcloud.com/gensokyowrld/yukari-2much-prod-remibandxz"
     }
   }
 ]
