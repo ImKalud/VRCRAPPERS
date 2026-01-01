@@ -93,17 +93,6 @@
   }
   ,
   {
-    "id": "10",
-    "name": "frustration",
-    "photo": "assets/images/10.jpg",
-    "company": "9ensokyo",
-    "social": {
-      "instagram": "https://www.instagram.com/",
-      "soundcloud": "https://soundcloud.com/frustrxtion"
-    }
-  }
-  ,
-  {
     "id": "11",
     "name": "reisenboutabag",
     "photo": "assets/images/11.jpg",
